@@ -8,9 +8,9 @@ import plotly.graph_objects as go
 
 #st.header("Chanakan")
 #st.image("./pic/NPRU.png")
-st.image("./pic/chana.jpg")
+#st.image("./pic/chana.jpg")
 
-col1, col2 = st.columns(2)
+col1, col2, col3  = st.columns(3)
 
 with col1:
    st.header(" ")
@@ -19,7 +19,9 @@ with col1:
 with col2:
    st.header(" ")
    st.image("./pic/chana.jpg")
-
+with col2:
+   st.header(" ")
+   st.image("./pic/Setosa.jpg")
 
 
 html_8 = """
