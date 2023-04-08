@@ -19,7 +19,7 @@ with col1:
 with col2:
    st.header(" ")
    st.image("./pic/chana.jpg")
-with col2:
+with col3:
    st.header(" ")
    st.image("./pic/Setosa.jpg")
 
