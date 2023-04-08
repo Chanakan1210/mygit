@@ -19,7 +19,7 @@ st.markdown(html_8, unsafe_allow_html=True)
 st.markdown("")
 
 
-dt = dt.read_csv("./data/irit.csv")
+dt = dt.read_csv("./data/iris.csv")
 
 st.write(dt.head(10))
 
