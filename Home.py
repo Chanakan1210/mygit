@@ -14,11 +14,11 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("A NPRU")
-   st.image("https://static.streamlit.io/pic/NPRU.png")
+   st.image("./pic/NPRU.png")
 
 with col2:
    st.header("A chana")
-   st.image("https://static.streamlit.io/pic/chana.jpg")
+   st.image("./pic/chana.jpg")
 
 with col3:
    st.header("An owl")
