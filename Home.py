@@ -68,6 +68,14 @@ if st.button("ทำนายผล"):
    else:       
     st.writ('xxx')    
    #st.button("ไม่แสดงข้อมูล")
+   if out[1] == 'Virginica':
+        st.image("./pic/Virginica.jpg")
+   else:       
+    st.writ('xxx')    
+    if out[2] == 'Versicolor':
+        st.image("./pic/Versicolor.jpg")
+   else:       
+    st.writ('xxx')  
 else:
    st.write("ไม่แสดงข้อมูล")
 
