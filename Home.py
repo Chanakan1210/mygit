@@ -13,14 +13,14 @@ import plotly.graph_objects as go
 col1, col2, col3  = st.columns(3)
 
 with col1:
-   st.header(" ")
+   st.header("NPRU ")
    st.image("./pic/npru.jpg")
 
 with col2:
-   st.header(" ")
+   st.header("Chanakan ")
    st.image("./pic/chana.jpg")
 with col3:
-   st.header(" ")
+   st.header("Iris")
    st.image("./pic/Virginica.jpg")
 
 
@@ -82,15 +82,7 @@ if st.button("ทำนายผล"):
    else:       
     st.writ('xxx')    
    #st.button("ไม่แสดงข้อมูล")
-   if out[1] == 'Virginica':
-        st.image("./pic/Virginica.jpg")
-   else:       
-    st.writ('xxx')    
-   if out[2] == 'Versicolor':
-        st.image("./pic/Versicolor.jpg")
-   else:       
-    st.writ('xxx')  
-
+  
 else:
    st.write("ไม่แสดงข้อมูล")
 
