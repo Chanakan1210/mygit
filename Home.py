@@ -21,7 +21,7 @@ with col2:
    st.image("./pic/chana.jpg")
 with col3:
    st.header(" ")
-   st.image("./pic/Setosa.jpg")
+   st.image("./pic/Virginica.jpg")
 
 
 html_8 = """
