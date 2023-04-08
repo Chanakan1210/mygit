@@ -14,11 +14,11 @@ col1, col2 = st.columns(2)
 
 with col1:
    st.header(" ")
-   st.image("./pic/NPRU.png")
+   st.image("./pic/npru.jpg")
 
 with col2:
    st.header(" ")
-   st.image("./pic/chanakan.jpg")
+   st.image("./pic/chana.jpg")
 
 
 
