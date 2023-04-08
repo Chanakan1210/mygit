@@ -10,6 +10,20 @@ import plotly.graph_objects as go
 #st.image("./pic/NPRU.png")
 st.image("./pic/chana.jpg")
 
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   st.header("A NPRU")
+   st.image("https://static.streamlit.io/pic/NPRU.png")
+
+with col2:
+   st.header("A chana")
+   st.image("https://static.streamlit.io/pic/chana.jpg")
+
+with col3:
+   st.header("An owl")
+   st.image("https://static.streamlit.io/examples/owl.jpg")
+
 html_8 = """
 <div style="background-color:#F2B2E4;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายข้อมูลดอกไม้</h5></center>
